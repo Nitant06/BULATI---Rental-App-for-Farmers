@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerFeedbackActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/feedBackMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Please tell us about your experience"
+        android:textSize="15sp"
+
+        android:textStyle="bold|italic" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="0"/>
+
+    <TextView
+        android:id="@+id/tvRatingScale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Awesome. I love it"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/etFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="40dp"
+        android:lines="5"
+        android:hint="Tell us what you liked or disliked."
+        android:gravity="top"/>
+    <Button
+        android:id="@+id/submitFeedbackBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#e57373"
+        android:text="Send feedback"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BULATI</string>
+    <string name="title_activity_tools_page">आपके उपकरण</string>
+
+    <array name="equipments">
+        <item>ट्रैक्टर</item>
+        <item>अन्य</item>
+    </array>
+
+    <array name="power">
+        <item>40hp</item>
+        <item>60hp</item>
+        <item>90hp</item>
+    </array>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="WelcomeMsg">BULATI में आपका स्वागत है</string>
+    <string name="buyerBtn">क्रेता</string>
+    <string name="sellerBtn">विक्रेता</string>
+    <string name="chooseLanguage">भाषा चुनें</string>
+
+    //Buyer
+
+    <string name="userRegistration">उपयोगकर्ता का पंजीकरण</string>
+    <string name="buyerName">नाम</string>
+    <string name="buyerMobileNo">मोबाइल नंबर</string>
+    <string name="nextBtn">आगे</string>
+    <string name="sendOTP">ओटीपी भेज रहा है ...</string>
+    <string name="enterOTP">OTP दर्ज करें</string>
+    <string name="resend">OTP पुन: भेजें</string>
+
+    //Seller
+
+    <string name="DriverEmail">ईमेल</string>
+    <string name="DriverPassword">पासवर्ड</string>
+    <string name="DriverLogin">पहले से पंजीकृत? लॉग इन करें</string>
+    <string name="DriverRegister">नया उपयोगकर्ता? रजिस्टर करें</string>
+    <string name="sellerWelcome">स्वागत हे</string>
+    <string name="sellerTools">मेरे उपकरण</string>
+    <string name="sellerPastOrders">पिछले आदेश</string>
+    <string name="sellerRequest">विक्रेता का अनुरोध</string>
+    <string name="sellerToolsList">आपके उपकरण</string>
+    <string name="addTool">नया टूल जोड़ें</string>
+    <string name="sellerEnterDetails">विवरण दर्ज करें</string>
+    <string name="enterEquipmentName">उपकरण का नाम दर्ज करें</string>
+    <string name="SelectEquipmentType">उपकरण प्रकार का चयन करें</string>
+    <string name="RegistrationNumber">पंजीकरण / लाइसेंस नंबर दर्ज करें</string>
+    <string name="SelectEnginePower">इंजन पावर का चयन करें</string>
+    <string name="AddToolAvailability">टूल उपलब्धता जोड़ें</string>
+    <string name="From">तारीख से</string>
+    <string name="To">तारीख तक</string>
+    <string name="nextBtn1">आगे</string>
+    <string name="addToolPhoto">टूल फोटो डालें</string>
+    <string name="chooseFile">गैलरी से फ़ाइल चुनें</string>
+    <string name="upload">फोटो अपलोड करें</string>
+    <string name="nextBtn2">आगे</string>
+    <string name="addToolLocation">साधन स्थान डालें</string>
+    <string name="getCurrentLocation">वर्तमान स्थान प्राप्त करें</string>
+    <string name="sellerSubmitBtn">प्रस्तुत</string>
+    <string name="sellerPastOrderList">आपका पास्ट ऑर्डर</string>
+    <string name="locationBackBtn">वापस</string>
+
+</resources>

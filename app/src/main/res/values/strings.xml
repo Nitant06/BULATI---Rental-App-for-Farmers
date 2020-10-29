@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">BULATI</string>
+    <string name="title_activity_tools_page">"Your Tools "</string>
+
+    <array name="equipments">
+        <item>Tractor</item>
+        <item>Other</item>
+    </array>
+
+    <array name="power">
+        <item>40hp</item>
+        <item>60hp</item>
+        <item>90hp</item>
+    </array>
+
+    <array name="timePeriod">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"1 Day"</item>
+    </array>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="WelcomeMsg">Welcome To BULATI</string>
+    <string name="buyerBtn">Buyer</string>
+    <string name="sellerBtn">Seller</string>
+    <string name="chooseLanguage">Choose Language</string>
+
+    //Buyer
+
+    <string name="userRegistration">User Registration</string>
+    <string name="buyerName">Name</string>
+    <string name="buyerMobileNo">Mobile Number</string>
+    <string name="nextBtn">Next</string>
+    <string name="sendOTP">Sending OTP...</string>
+    <string name="enterOTP">Enter OTP</string>
+    <string name="resend">Resend OTP</string>
+    <string name="availableTools">Available Tools</string>
+
+
+    //Seller
+
+    <string name="DriverEmail">Email</string>
+    <string name="DriverPassword">Password</string>
+    <string name="DriverLogin">Already Registered? Login</string>
+    <string name="DriverRegister">New User? Register</string>
+    <string name="sellerWelcome">Welcome</string>
+    <string name="sellerTools">My Tools</string>
+    <string name="sellerPastOrders">Past Orders</string>
+    <string name="sellerRequest">Seller Request</string>
+    <string name="sellerToolsList">Your Tools</string>
+    <string name="addTool">Add Tool</string>
+    <string name="sellerEnterDetails">Enter Details</string>
+    <string name="enterEquipmentName">Enter Equipment Name</string>
+    <string name="SelectEquipmentType">Select Equipment Type</string>
+    <string name="RegistrationNumber">Enter Registration/license number</string>
+    <string name="SelectEnginePower">Select Engine Power</string>
+    <string name="AddToolAvailability">Add Tool Availability</string>
+    <string name="From">From</string>
+    <string name="To">To</string>
+    <string name="nextBtn1">Next</string>
+    <string name="addToolPhoto">Add Tool Photo</string>
+    <string name="chooseFile">Choose from Gallery.</string>
+    <string name="upload">Upload</string>
+    <string name="nextBtn2">Next</string>
+    <string name="addToolLocation">Add Tool Location</string>
+    <string name="getCurrentLocation">Get Current Location</string>
+    <string name="sellerSubmitBtn">Submit</string>
+    <string name="sellerPastOrderList">Your Past Order</string>
+    <string name="locationBackBtn">Back</string>
+    <string name="title_activity_driver_map">Map</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadToolPictures"
+    android:orientation="vertical"
+    android:background="#92FE9D">
+
+    <TextView
+        android:id="@+id/Msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:text="@string/addToolPhoto"
+        android:textAlignment="viewEnd"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="248dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/choose"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/chooseFile"
+            android:textSize="15sp"
+            android:background="@drawable/custom_button3"/>
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:text="@string/upload"
+            android:background="@drawable/custom_button3"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextStepBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nextBtn2"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_button2"/>
+
+</LinearLayout>

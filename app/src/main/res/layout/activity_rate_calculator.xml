@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RateCalculator"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/RateMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estimated Rate"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:text="Enter land area (.acrs)"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/LandArea"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="numberSigned" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Select Time Period (.hrs)"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/timePeriodSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/timePeriod"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calculateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="40dp"
+        android:text="Get Price" />
+
+    <TextView
+        android:id="@+id/TotalPriceTF"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:id="@+id/confirmBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="Confirm" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:text="Back" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/WaitMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Click on Check Order Status to know the status."
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/customer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buyer_farmer"
+        android:text="@string/buyerBtn"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/driver"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/sellerBtn"
+        android:textSize="80sp"
+        android:background="@drawable/seller_farmer"
+        android:textStyle="bold"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+         />
+
+    <TextView
+        android:id="@+id/languageMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chooseLanguage"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

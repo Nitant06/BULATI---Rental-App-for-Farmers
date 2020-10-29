@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seller_welcome"
+    android:orientation="vertical"
+    android:background="#6be585">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/WelcomeMsg"
+        android:layout_width="242dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="60dp"
+        android:text="@string/sellerWelcome"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/userToolsBtn"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/custom_button3"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/sellerTools"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/currentOrderBtn"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button3"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Current Order"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/userOrdersBtn"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/custom_button3"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="@string/sellerPastOrders"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+</LinearLayout>

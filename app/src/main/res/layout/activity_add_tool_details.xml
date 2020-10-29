@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddToolDetails"
+    android:orientation="vertical"
+    android:background="#92FE9D">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/sellerEnterDetails"
+                android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/equipmentNameTF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:ems="10"
+                android:hint="@string/enterEquipmentName"
+                android:inputType="textPersonName" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="27dp"
+                    android:text="@string/SelectEquipmentType"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinnerEquipments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/equipments" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/RCTF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:hint="@string/RegistrationNumber"
+                android:inputType="textPersonName" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/SelectEnginePower"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/powerSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:entries="@array/power"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/AddToolAvailability"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="18dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/startDate"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:text="@string/From"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/endDate"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_weight="1"
+                    android:text="@string/To"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/nextStepBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/nextBtn1"
+                android:background="@drawable/custom_button2"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
